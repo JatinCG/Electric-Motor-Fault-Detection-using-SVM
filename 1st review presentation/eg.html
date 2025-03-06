@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor Fault Detection using Machine Learning</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .slide { display: none; padding: 20px; }
+        .active { display: block; }
+        nav { margin-bottom: 20px; }
+        button { margin: 5px; padding: 10px; cursor: pointer; }
+        textarea { width: 90%; height: 300px; margin-top: 10px; font-size: 16px; }
+        .hidden { display: none; }
+    </style>
+    <script>
+        function showSlide(index) {
+            let slides = document.querySelectorAll('.slide');
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[index].classList.add('active');
+        }
+        
+        function toggleMenu() {
+            let extraButtons = document.getElementById("extra-buttons");
+            extraButtons.classList.toggle("hidden");
+        }
+    </script>
+</head>
+<body>
+    <h1 contenteditable="true">Motor Fault Detection using Machine Learning</h1>
+    <nav>
+        <button onclick="toggleMenu()">Contents</button>
+        <div id="extra-buttons" class="hidden">
+            <button onclick="showSlide(0)">Title</button>
+            <button onclick="showSlide(2)">Introduction</button>
+            <button onclick="showSlide(3)">Literature Review</button>
+            <button onclick="showSlide(4)">Research Gaps</button>
+            <button onclick="showSlide(5)">Problem Statement</button>
+            <button onclick="showSlide(6)">Objectives</button>
+            <button onclick="showSlide(7)">Block Diagram</button>
+            <button onclick="showSlide(8)">Methodology</button>
+            <button onclick="showSlide(9)">Results</button>
+            <button onclick="showSlide(10)">Conclusions</button>
+            <button onclick="showSlide(11)">References</button>
+        </div>
+    </nav>
+    
+    <div class="slide active">
+        <p contenteditable="true">Project: Motor Fault Detection using AI RFC</p>
+        <p>Team Members</p>
+        <p><b>M Jayesh</b> cb.sc.u4aie24128</p>
+        <p><b>M Rakesh</b> cb.sc.u4aie24134</p>
+        <p><b>Ch Virinchi Sai</b> cb.sc.u4aie24158</p>
+        <p><b>Jatin Chandra Gupta K</b> cb.sc.u4aie24162</p>
+        <p contenteditable="true">Subject: EEE & UID</p>
+        <img src="amrita_logo.png" alt="Amrita Logo" width="150">
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">Contents</h2>
+        <textarea placeholder="Type or paste content here..."></textarea>
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">Introduction</h2>
+        <p>Introduction content goes here...</p>
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">Literature Review</h2>
+        <p>Literature Review content goes here...</p>
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">Research Gaps</h2>
+        <p>Research Gaps content goes here...</p>
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">Problem Statement</h2>
+        <p>Problem Statement content goes here...</p>
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">Objectives</h2>
+        <p>Objectives content goes here...</p>
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">Block Diagram</h2>
+        <p>Block Diagram content goes here...</p>
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">Methodology</h2>
+        <p>Methodology content goes here...</p>
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">Results</h2>
+        <p>Results content goes here...</p>
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">Conclusions</h2>
+        <p>Conclusions content goes here...</p>
+    </div>
+    
+    <div class="slide">
+        <h2 contenteditable="true">References</h2>
+        <p>References content goes here...</p>
+    </div>
+</body>
+</html>
