@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Vector Machine (SVM)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+        }
+
+        .content {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: left;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #FFD700;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 28px;
+            text-decoration: none;
+            background: linear-gradient(90deg, #FFD700, #0073e6);
+            color: white;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 5px 15px rgba(255, 215, 0, 0.6);
+            text-transform: uppercase;
+        }
+
+        a:hover {
+            background: linear-gradient(90deg, #0073e6, #FFD700);
+            transform: translateY(-4px);
+            box-shadow: 0px 8px 18px rgba(237, 30, 121, 0.6);
+        }
+
+        a:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <h2>Support Vector Machine (SVM)</h2>
+    <div class="content">
+        <ul>
+            <li>SVM is a machine learning algorithm used for classification and pattern recognition.</li>
+            <li>It works by finding the best boundary (hyperplane) that separates different classes in the data.</li>
+            <li>Developed from the optimal separating hyperplane under linearly separable conditions.</li>
+            <li>SVM works by finding a hyperplane that best separates the two classes (Class I: ⚪ white squares, Class II: ⚫ black dots).</li>
+            <li>We extract features from vibration signals using Wavelet Transform</li>
+            <li>These features are used to train an SVM classifier to identify different types of bearing faults (Normal, Ball Fault, Inner Race Fault, Outer Race Fault).</li>
+            <li>The trained SVM model classifies new vibration signals, helping detect motor faults accurately.</li>
+        </ul>
+    </div>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Objective.html">Previous</a>
+        <a href="Wavelet Transform.html">Next</a>
+    </nav>
+</body>
+</html>

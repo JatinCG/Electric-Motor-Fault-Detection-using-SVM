@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UID for Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #0F2027, #203A43, #2C5364); /* Dark Blue Gradient */
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 70%;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1); /* Glass effect */
+            backdrop-filter: blur(8px);
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.03);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #FFD700; /* Gold Title */
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+        }
+
+        .content {
+            text-align: left;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .content li {
+            margin: 10px 0;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .content li:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-4px);
+        }
+
+        /* Navigation Buttons */
+        .nav-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .nav-container a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 28px;
+            text-decoration: none;
+            background: linear-gradient(90deg, #FFD700, #0073e6);
+            color: white;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 5px 15px rgba(255, 215, 0, 0.6);
+            text-transform: uppercase;
+        }
+
+        .nav-container a:hover {
+            background: linear-gradient(90deg, #0073e6, #FFD700);
+            transform: translateY(-4px);
+            box-shadow: 0px 8px 18px rgba(237, 30, 121, 0.6);
+        }
+
+        .nav-container a:active {
+            transform: scale(0.95);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>UID for Website</h1>
+        <div class="content">
+            <ul>
+                <p>The UI design of our Bearing Fault Detection System will focus on simplicity, clarity, and ease of use. The website will have an intuitive layout to ensure a smooth experience for users.</p>
+                <li><strong>Home Page:</strong> Overview of the project and its importance.</li>
+                <li><strong>Upload Data Page:</strong> Allows users to upload CSV files containing vibration data.</li>
+                <li><strong>Preprocessing & Feature Extraction:</strong> Automatically processes the uploaded data using Wavelet Transform.</li>
+                <li><strong>Fault Prediction:</strong> Runs the trained SVM model on the uploaded data and displays results.</li>
+                <li><strong>Visualization:</strong> Shows graphs like wavelet decomposition plots, confusion matrix, and vibration signals.</li>
+                <li><strong>Download Report:</strong> Provides an option to download results as a PDF or CSV file.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-container">
+        <a href="Home.html">Home</a>
+        <a href="Challenges.html">Previous</a>
+    </div>
+</body>
+</html>
